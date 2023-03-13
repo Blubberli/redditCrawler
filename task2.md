@@ -5,6 +5,7 @@ comments that have not been removed from reddit by the authors. Use the https://
 the IDs. 
 For example this request: 'https://api.pushshift.io/reddit/comment/search?ids=dlrezc8,dlrawgw,dlrhbkq' returns a json with information about three IDS. In this
 case all IDs have been removed. 
-This can be seen because the information in the field 'link_id' contains [removed].
+This can be seen because the information in the field 'link_id' contains [removed]. Add a print statement that prints the old and new size of the dataframe so we know how many comments have been removed.
 
 An example dataframe is uploaded, called cmv_example_thread.tsv
+
